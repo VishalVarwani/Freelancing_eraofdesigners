@@ -1,0 +1,43 @@
+
+.float
+{
+    position: fixed;
+    display: block;
+    width: 57px;
+    height: 60px;
+    bottom: 140px;
+    right: 15px;
+    background-color: #ffbc00;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    
+        z-index: 9999999999;
+}
+
+.my-float
+{
+    margin-top: 3px;
+    
+}
+.wp-call-button {
+display: block;
+position: fixed;
+text-decoration: none;
+z-index: 9999999999;
+width: 57px;
+height: 57px;
+border-radius: 50%;
+right: 15px;
+bottom: 70px;
+background: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDU5cHgiIGhlaWdodD0iNDU5cHgiIHZpZXdCb3g9IjAgMCA0NTkgNDU5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTkgNDU5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGcgaWQ9ImNhbGwiPjxwYXRoIHN0eWxlPSJmaWxsOiB3aGl0ZTsiIGQ9Ik05MS44LDE5OC45YzM1LjcsNzEuNCw5Ni45LDEzMC4wNSwxNjguMywxNjguM0wzMTYuMiwzMTEuMWM3LjY0OS03LjY0OSwxNy44NS0xMC4xOTksMjUuNS01LjFjMjguMDUsMTAuMiw1OC42NDksMTUuMyw5MS44LDE1LjNjMTUuMywwLDI1LjUsMTAuMiwyNS41LDI1LjV2ODYuN2MwLDE1LjMtMTAuMiwyNS41LTI1LjUsMjUuNUMxOTMuOCw0NTksMCwyNjUuMiwwLDI1LjVDMCwxMC4yLDEwLjIsMCwyNS41LDBoODkuMjVjMTUuMywwLDI1LjUsMTAuMiwyNS41LDI1LjVjMCwzMC42LDUuMSw2MS4yLDE1LjMsOTEuOGMyLjU1LDcuNjUsMCwxNy44NS01LjEsMjUuNUw5MS44LDE5OC45eiIvPjwvZz48L2c+PC9zdmc+) center/22px 22px no-repeat #ffbc00 !important;
+}
+.blink_me {
+animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+50% { opacity: 0; }
+}
+
